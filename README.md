@@ -29,13 +29,13 @@ A simple and elegant SharePoint Framework (SPFx) React Web Part that displays a 
 
 # 🛠 How to Run Locally
 ## 1. Clone the repository:
-```git clone https://github.com/your-username/notification-marquee-spfx.git```
+```git clone https://github.com/Dips97/Notification-Marquee.git```
 ```cd notification-marquee-spfx```
 
 ## 2. Install dependencies:
 ```npm install```
 
-## 3. define the domain in config/serv.json
+## 3. Define the domain in config/serv.json
  "initialPage": "https://<yourtenant>.sharepoint.com/_layouts/workbench.aspx"
 
 ## 4. Start local SharePoint workbench:
