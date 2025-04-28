@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Notification Marquee Client Side Solution by Dipak Shaw",
+    "id": "45b03b20-8748-4ef0-b48f-cc1e5c18eb10",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "iconPath": "",
+    "developer": {
+      "name": "Dipak Shaw",
+      "websiteUrl": "https://powersolution.dev",
+      "privacyUrl": "https://powersolution.dev/marquee-spfx-privacy/",
+      "termsOfUseUrl": "https://powersolution.dev/marquee-spfx-termsofuse/",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Displays important announcements as a scrolling marquee on your SharePoint page."
+      },
+      "longDescription": {
+        "default": "The Notification Marquee Web Part is a SharePoint Framework (SPFx) solution designed to display important messages in a horizontally scrolling banner across modern SharePoint pages. It enables organizations to highlight key announcements or alerts in a non-intrusive manner. The web part allows site administrators to input plain text messages that automatically scroll from right to left, ensuring visibility without disrupting the page layout. It is ideal for broadcasting organizational updates, reminders, or urgent notices in a consistent and accessible format across SharePoint sites."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "notification-marquee Feature",
+        "description": "The feature that activates elements of the notification-marquee solution.",
+        "id": "c63c51b0-d027-4925-a5d5-57f3e84e5f23",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/notification-marquee.sppkg"
+  }
+}

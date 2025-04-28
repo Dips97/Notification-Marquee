@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Title" xml:space="preserve">
+    <value>सूचना मर्जी</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>सूचना मर्जी संदेश</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>यह एक उदाहरण स्क्रोलिंग घोषणा है!</value>
+  </data>
+</root>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Title" xml:space="preserve">
+    <value>Notification Marquee</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Marquee message for announcements</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>This is a sample scrolling announcement!</value>
+  </data>
+</root>

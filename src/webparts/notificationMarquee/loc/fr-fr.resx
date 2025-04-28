@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="Title" xml:space="preserve">
+    <value>Marquee de notification</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Message défilant pour les annonces</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>C'est une annonce défilante d'exemple!</value>
+  </data>
+</root>

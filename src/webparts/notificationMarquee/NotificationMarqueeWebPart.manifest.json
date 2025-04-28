@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "3b5ec735-e995-4d13-8f2e-ed797565f18f",
+  "alias": "NotificationMarqueeWebPart",
+  "componentType": "WebPart",
+  "supportsFullBleed": true,
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
+      "group": { "default": "Advanced" },
+      "title": {
+        "default": "Notification Marquee",
+        "en-us": "Notification Marquee",
+        "de-de": "Benachrichtigungs-Marquee",
+        "fr-fr": "Marquee de notification",
+        "en-gb": "Notification Marquee",
+        "hi-in": "सूचना मर्जी",
+        "en-in": "Notification Marquee"
+      },
+      "description": {
+        "default": "Displays a scrolling notification.",
+        "en-us": "Marquee message for announcements.",
+        "de-de": "Marquee-Nachricht für Ankündigungen.",
+        "fr-fr": "Message défilant pour les annonces.",
+        "en-gb": "Notification Marquee.",
+        "hi-in": "सूचना मर्जी संदेश|",
+        "en-in": "Notification Marquee."
+      },
+      "officeFabricIconFontName": "Megaphone",
+      "properties": {
+        "message": "Your message here"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.marqueeContainer {
+  // background-color: #d80c0c;
+  padding: 3px;
+  // border: 1px solid #31db5c;
+  font-weight: normal;
+  font-size: large;
+  color: #333;
+  overflow: hidden;
+  width: 100%; /* Ensure container takes full width */
+}
+
+.marqueeText {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 30s linear infinite; /* Define the marquee animation */
+  animation-delay: -5s; /* Ensure no initial delay */
+}
+
+/* Ensure the text container has enough width for continuous scrolling */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%); /* Start the text off-screen to the right */
+  }
+  50% {
+    transform: translateX(
+      0
+    ); /* At the middle, text should be fully inside the container */
+  }
+  100% {
+    transform: translateX(-100%); /* Move the text completely to the left */
+  }
+}
