@@ -1,3 +1,7 @@
+![License: MIT](https://img.shields.io/badge/License-MIT-green) 
+![Version](https://img.shields.io/badge/version-1.0.0.1-blue)
+![Stars](https://img.shields.io/github/stars/Dips97/Notification-Marquee.svg?style=social)
+
 # 📢 Notification Marquee SPFx Web Part
 A simple and elegant SharePoint Framework (SPFx) React Web Part that displays a scrolling marquee notification for important messages and announcements.
 
